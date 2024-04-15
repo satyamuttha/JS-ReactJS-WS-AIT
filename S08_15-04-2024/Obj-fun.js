@@ -7,7 +7,9 @@ var obj = {
     console.log(a + b);
     console.log(x);
   },
+  f1: () => {},
 };
 
 obj.fn(100);
+
 console.log(obj);
