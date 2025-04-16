@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 1</title>
+    <script>
+      function changeStyles() {
+        //1. Get the DOM element of the h2
+        var h2DomElement = document.querySelector("h2");
+
+        //2.Change the style
+        h2DomElement.style.color = "red";
+        h2DomElement.style.backgroundColor = "black";
+        h2DomElement.style.padding = "20px";
+      }
+
+      function changeToBlack() {
+        var h2DomElement = document.querySelector("h2");
+
+        h2DomElement.style.color = "black";
+        h2DomElement.style.backgroundColor = "red";
+        h2DomElement.style.padding = "20px";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h2>DOM Manipulation</h2>
+      <button onclick="changeStyles()">Red</button>
+      <button onclick="changeToBlack()">Black</button>
+    </div>
+  </body>
+</html>

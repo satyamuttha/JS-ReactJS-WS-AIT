@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function changeToFemale() {
+        var imgDomElement = document.getElementById("image");
+        imgDomElement.style.border = "10px solid green";
+        imgDomElement.src =
+          "https://static.vecteezy.com/system/resources/previews/025/474/309/non_2x/portrait-of-a-professional-woman-in-a-suit-business-woman-standing-in-an-office-ai-generated-photo.jpg";
+      }
+
+      function changeToMale() {
+        var imgDomElement = document.querySelector(".c1");
+        imgDomElement.style.border = "10px dotted red";
+        imgDomElement.src =
+          "https://c.pxhere.com/photos/93/c7/businessman_man_portrait_male_costume_business_office_office_style-815849.jpg!d";
+      }
+    </script>
+  </head>
+
+  <body>
+    <img
+      id="image"
+      class="c1"
+      src="https://c.pxhere.com/photos/93/c7/businessman_man_portrait_male_costume_business_office_office_style-815849.jpg!d"
+      width="300"
+      height="300"
+      onmouseenter="changeToFemale()"
+      onmouseleave="changeToMale()"
+    />
+  </body>
+</html>

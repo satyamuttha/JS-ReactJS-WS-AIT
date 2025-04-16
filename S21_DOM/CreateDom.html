@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function createH1() {
+        var h1DomElement = document.createElement("h1");
+        //<h1>  </h1>
+        var imgDomElement = document.createElement("img");
+        // <img src="" width="" height=""/>
+
+        h1DomElement.innerText = "I am first DOM Element";
+        //<h1> I am first DOM Element </h1>
+
+        imgDomElement.src =
+          "https://i.pinimg.com/originals/e6/78/4b/e6784b9cd722d02e014d7e60ebe25e39.jpg";
+        imgDomElement.width = "300";
+        imgDomElement.height = "300";
+
+        var bodyDomeelement = document.querySelector("body");
+
+        bodyDomeelement.appendChild(h1DomElement);
+        bodyDomeelement.appendChild(imgDomElement);
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="createH1()">Create a h1 element</button>
+  </body>
+</html>

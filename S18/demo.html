@@ -1,0 +1,19 @@
+<script>
+  function f1() {
+    document.querySelector("button").style.backgroundColor = "red";
+    document.querySelector("button").style.color = "white";
+    var img = document.createElement("img");
+    img.src =
+      "https://www.crushpixel.com/big-static7/preview4/portrait-young-professional-man-suit-258742.jpg";
+    img.width = "300";
+    img.height = "300";
+    document.querySelector("body").append(img);
+  }
+</script>
+
+<style>
+  button {
+    border: 2px solid red;
+  }
+</style>
+<button onclick="f1()">Login</button><br />

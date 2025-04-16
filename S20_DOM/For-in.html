@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 1</title>
+    <script>
+      function printProperties() {
+        //1. Get the DOM element of the h2
+        var h2DomElement = document.querySelector("h2");
+
+        //2.print all the properties of h2dom element
+        for (var key in document) {
+          console.log(key);
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h2>DOM Manipulation</h2>
+      <button onclick="printProperties()">Print Properties of h2dom</button>
+    </div>
+  </body>
+</html>

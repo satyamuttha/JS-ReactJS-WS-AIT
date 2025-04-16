@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function getData() {
+        var inputCollection = document.querySelectorAll("input");
+
+        var inputDomElement = inputCollection[0];
+
+        var data = inputDomElement.value;
+
+        var pDom = document.getElementById("content");
+
+        pDom.innerText = data;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2>Task 1</h2>
+    <input type="text" placeholder="enter something" />
+    <button onclick="getData()">Submit</button>
+    <p id="content" style="color: green; font-size: 21px"></p>
+  </body>
+</html>

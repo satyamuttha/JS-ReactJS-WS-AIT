@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function modifyH2() {
+        var h2DomElement = document.querySelector("h2");
+
+        h2DomElement.innerText = "Hello JS Dude";
+      }
+    </script>
+    <style>
+      body {
+        padding: 30px 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Welcome to Javascript</h2>
+    <button onclick="modifyH2()">Modify Title</button>
+  </body>
+</html>
