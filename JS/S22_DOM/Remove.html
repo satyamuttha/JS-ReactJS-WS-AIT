@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function fnRemove() {
+        var pDomElement = document.querySelector("p");
+        var h2Dom = document.querySelector("h2");
+        pDomElement.remove();
+        h2Dom.remove();
+
+        var imgDom = document.createElement("img");
+        imgDom.src =
+          "https://th.bing.com/th/id/R.464ccc9fab573ac2fa61cd4df9b6fec8?rik=qWYCEurMMRZKzQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fTpayTNx.jpg&ehk=uGryJFPMhr9nheNxqMsnUg0OJVSRY%2fKIMkgiRPqwSD8%3d&risl=&pid=ImgRaw&r=0";
+        imgDom.width = "300";
+        imgDom.height = "300";
+
+        document.querySelector("body").appendChild(imgDom);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2>Remove the DOM element</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla fugit hic,
+      sit quos sed et. Cum, non? Harum voluptatibus hic temporibus, aut
+      blanditiis, officia delectus eaque voluptas similique, sunt rem illo
+      laudantium assumenda adipisci! Asperiores ratione facilis accusantium,
+      recusandae error, officia sed odit consequuntur sint atque animi hic
+      fugiat dicta. Cum perferendis iusto nulla similique corporis. Dolore odit
+      architecto iste non facere facilis debitis cumque, similique eaque quam.
+      Nihil voluptatem eos error quo nam ipsum consectetur at sequi ut autem?
+      Recusandae reprehenderit cum vero, quam sit aut, ab consequuntur
+      voluptatibus sunt ratione cupiditate a quasi incidunt ullam veritatis in
+      modi praesentium aliquam tempore excepturi quia! Exercitationem
+      reprehenderit nesciunt necessitatibus nostrum corrupti quia repellat
+      provident veritatis ut aspernatur quisquam tempora voluptates rerum culpa
+      a ad voluptate optio libero iusto suscipit, tenetur in ducimus dicta
+      dolor! Deserunt numquam illo dolorum quo a, iusto nam maiores dolore
+      praesentium repellendus. Architecto quas quos molestias magnam sint
+      dignissimos voluptatibus sapiente perferendis rerum non, soluta deleniti
+      vero neque quibusdam perspiciatis nam delectus omnis quidem itaque et
+      doloremque quia ipsa? Tenetur aliquam quidem officia dolor, eligendi enim
+      accusantium accusamus in. Accusamus, modi! At ullam sint totam inventore
+      harum, facilis laboriosam explicabo cupiditate repellat velit animi,
+      distinctio illum.
+    </p>
+    <button onclick="fnRemove()">remove Para</button>
+  </body>
+</html>

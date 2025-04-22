@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var data = [];
+
+      function getList() {
+        document.getElementById("list").remove();
+        var inputDom = document.querySelector("input");
+
+        var inputValue = inputDom.value;
+
+        data.push(inputValue);
+        var ol = document.createElement("ol");
+        ol.id = "list";
+        document.querySelector("body").appendChild(ol);
+        data.forEach(function (element) {
+          var li = document.createElement("li");
+          li.innerText = element;
+          document.getElementById("list").appendChild(li);
+        });
+      }
+    </script>
+    <style>
+      body {
+        padding: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Todo Task</h2>
+    <input type="text" placeholder="enter something" />
+    <button onclick="getList()">Submit</button>
+    <ol id="list"></ol>
+  </body>
+</html>
