@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      var p_react_element = React.createElement(
+        "p",
+        { id: "para", name: "content" },
+        "React JS is a Library, not a Framework"
+      );
+
+      ReactDOM.render(p_react_element, document.getElementById("root"));
+    </script>
+  </body>
+</html>
