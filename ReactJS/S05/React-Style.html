@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #title {
+        /* color: red; */
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="./React-Style.css" /> -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      var h2 = React.createElement(
+        "h2",
+        {
+          id: "title",
+          style: {
+            color: "green",
+            backgroundColor: "coral",
+            padding: "30px",
+            width: "300px",
+          },
+        },
+        "React Element Styles"
+      );
+
+      ReactDOM.render(h2, document.getElementById("root"));
+    </script>
+  </body>
+</html>
