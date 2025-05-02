@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #box {
+        width: 1000px;
+        padding: 20px;
+        box-shadow: 0 0 10px green;
+        margin-bottom: 20px;
+      }
+    </style>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function CreateContainer(props) {
+        //props = {title:"html"}
+        return (
+          <div id="box">
+            <h2> {props.title} </h2>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+              reiciendis ipsa vel magni est debitis commodi iusto obcaecati
+              tempora, placeat possimus nobis consequatur tenetur aut iure sed
+              nemo inventore! Qui eum similique, odio assumenda cum totam modi
+              unde ad facere, reprehenderit autem reiciendis vel necessitatibus!
+              Dolore in nemo sit repudiandae sint vero exercitationem at nobis
+              laboriosam voluptas deserunt facilis similique, libero ut
+              voluptatum cupiditate laborum. Sequi rerum minus facere est sit
+              quia maiores, adipisci dignissimos corporis totam magni qui et
+              consequuntur temporibus ex enim atque earum repellat aliquid harum
+              repudiandae assumenda, illo repellendus beatae. Fugit temporibus
+              accusamus cupiditate natus voluptates.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+              reiciendis ipsa vel magni est debitis commodi iusto obcaecati
+              tempora, placeat possimus nobis consequatur tenetur aut iure sed
+              nemo inventore! Qui eum similique, odio assumenda cum totam modi
+              unde ad facere, reprehenderit autem reiciendis vel necessitatibus!
+              Dolore in nemo sit repudiandae sint vero exercitationem at nobis
+              laboriosam voluptas deserunt facilis similique, libero ut
+              voluptatum cupiditate laborum. Sequi rerum minus facere est sit
+              quia maiores, adipisci dignissimos corporis totam magni qui et
+              consequuntur temporibus ex enim atque earum repellat aliquid harum
+              repudiandae assumenda, illo repellendus beatae. Fugit temporibus
+              accusamus cupiditate natus voluptates. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Maiores reiciendis ipsa vel magni
+              est debitis commodi iusto obcaecati tempora, placeat possimus
+              nobis consequatur tenetur aut iure sed nemo inventore! Qui eum
+              similique, odio assumenda cum totam modi unde ad facere,
+              reprehenderit autem reiciendis vel necessitatibus! Dolore in nemo
+              sit repudiandae sint vero exercitationem at nobis laboriosam
+              voluptas deserunt facilis similique, libero ut voluptatum
+              cupiditate laborum. Sequi rerum minus facere est sit quia maiores,
+              adipisci dignissimos corporis totam magni qui et consequuntur
+              temporibus ex enim atque earum repellat aliquid harum repudiandae
+              assumenda, illo repellendus beatae. Fugit temporibus accusamus
+              cupiditate natus voluptates.{" "}
+            </p>
+          </div>
+        );
+      }
+
+      function AllContainers() {
+        return (
+          <div>
+            <CreateContainer title={"HTML"} />
+
+            <CreateContainer title={"CSS"} />
+
+            <CreateContainer title={"JS"}> </CreateContainer>
+            <CreateContainer title={"REACT JS"}> </CreateContainer>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<AllContainers />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Multi-Card.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function Card(props) {
+        return (
+          <div className="card">
+            <img src={props.image} width="100%" height="220" />
+            <h3> {props.title} </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+            <button> More Details </button>
+          </div>
+        );
+      }
+
+      function App() {
+        return (
+          <div className="app">
+            <Card
+              image="https://www.crushpixel.com/big-static7/preview4/portrait-young-professional-man-suit-258742.jpg"
+              title="Rohan Sharma"
+            />
+            <Card
+              image="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg"
+              title="Aditya Sharma"
+            />
+            <Card
+              image="https://techcloudltd.com/wp-content/uploads/2024/06/male-professional-headshots-1024x638.webp"
+              title="Rajiv Sharma"
+            />
+            <Card
+              image="https://th.bing.com/th/id/OIP.hCfHyL8u8XAbreXuaiTMQgHaHZ?rs=1&pid=ImgDetMain"
+              title="Sandeep Sharma"
+            />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
