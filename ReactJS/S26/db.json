@@ -1,0 +1,25 @@
+{
+    "results": [
+        {
+            "name": "s1"
+        },
+        {
+            "name": "s2"
+        },
+        {
+            "name": "s3"
+        }
+    ],
+    "products": [
+        {
+            "product": "p1"
+        },
+        {
+            "product": "p2"
+        }
+    ],
+    "profile": {
+        "name": "Rajiv",
+        "email": "rajov@gmail.com"
+    }
+}

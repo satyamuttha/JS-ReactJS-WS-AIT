@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Raj",
+      "gender": "Male",
+      "email": "raj@example.com",
+      "city": "Hyderabad",
+      "id": "49e8"
+    },
+    {
+      "name": "Clara",
+      "gender": "Female",
+      "email": "clara.davis@example.com",
+      "city": "Mumbai",
+      "id": "6780"
+    },
+    {
+      "name": "Ella Martinez ji",
+      "gender": "Female",
+      "email": "ella.martinez@example.com",
+      "city": "Delhi",
+      "id": "7473"
+    },
+    {
+      "id": "05ab",
+      "name": "Sneha",
+      "email": "sneha@gmail.com",
+      "city": "Indore",
+      "gender": "Female"
+    }
+  ]
+}

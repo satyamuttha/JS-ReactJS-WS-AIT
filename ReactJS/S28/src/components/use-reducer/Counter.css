@@ -1,0 +1,10 @@
+.counter {
+  padding: 100px;
+}
+.counter h1 {
+  margin-bottom: 20px;
+  color: green;
+}
+.counter button {
+  margin-right: 20px;
+}

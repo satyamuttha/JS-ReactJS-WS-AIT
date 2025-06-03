@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Alice Johnson",
+      "gender": "Female",
+      "email": "alice.johnson@example.com",
+      "city": "New York",
+      "id": "6444"
+    },
+    {
+      "name": "Bob Smith",
+      "gender": "Male",
+      "email": "bob.smith@example.com",
+      "city": "Los Angeles",
+      "id": "49e8"
+    },
+    {
+      "name": "Clara Davis",
+      "gender": "Female",
+      "email": "clara.davis@example.com",
+      "city": "Chicago",
+      "id": "6780"
+    },
+    {
+      "name": "Ella Martinez",
+      "gender": "Female",
+      "email": "ella.martinez@example.com",
+      "city": "Phoenix",
+      "id": "7473"
+    }
+  ]
+}
