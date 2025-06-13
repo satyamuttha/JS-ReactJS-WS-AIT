@@ -1,0 +1,26 @@
+Nested Component
+================
+https://youtu.be/l9wdaYiNd-E?si=Akaq3JMqsdpDlZ5P
+
+
+Class Component
+===============
+https://youtu.be/r9WXv2s3wQ0?si=UKHA-zqJSd6aseSJ
+
+
+Extra Videos apart from syllabus
+---------------------------------------------
+
+Lifecycle Methods
+===============
+https://youtu.be/3C2QNdPDIi8?si=1-JooVUwlc3PSIWn
+
+React Portals
+--------------
+https://drive.google.com/file/d/1BbgJ3yQpGy27SBS3L7BLun-E6fSlfWjv/view?usp=sharing
+
+Error Boundaries
+-----------------------
+https://drive.google.com/file/d/1-Anb4i_3tYx86qkhKIqiSh-BSYYdIoDQ/view?usp=sharing
+
+ 

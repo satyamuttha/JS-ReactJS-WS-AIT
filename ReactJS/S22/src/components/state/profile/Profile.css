@@ -1,0 +1,23 @@
+.profile {
+  width: 1000px;
+  margin: 50px auto;
+
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.imgContainer {
+  padding: 10px;
+}
+.darkThemeContentContainer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.lightThemeContentContainer {
+  background-color: white;
+  color: black;
+}
+dt {
+  margin-top: 20px;
+}

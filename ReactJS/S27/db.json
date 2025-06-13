@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "name": "Alice Johnson",
+            "gender": "Female",
+            "email": "alice.johnson@example.com",
+            "city": "New York"
+        },
+        {
+            "name": "Bob Smith",
+            "gender": "Male",
+            "email": "bob.smith@example.com",
+            "city": "Los Angeles"
+        },
+        {
+            "name": "Clara Davis",
+            "gender": "Female",
+            "email": "clara.davis@example.com",
+            "city": "Chicago"
+        },
+        {
+            "name": "David Lee",
+            "gender": "Male",
+            "email": "david.lee@example.com",
+            "city": "Houston"
+        },
+        {
+            "name": "Ella Martinez",
+            "gender": "Female",
+            "email": "ella.martinez@example.com",
+            "city": "Phoenix"
+        }
+    ]
+}

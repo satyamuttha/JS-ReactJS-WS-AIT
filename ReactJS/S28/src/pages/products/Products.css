@@ -1,0 +1,17 @@
+.products {
+  padding: 50px;
+}
+.products-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.no-products {
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+  font-size: 32px;
+}
